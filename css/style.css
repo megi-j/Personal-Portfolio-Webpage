@@ -61,7 +61,7 @@ html {
     align-items: center;
     justify-content: center;
     align-content: center;
-  
+   
 } 
 #projects h2 {
     font-size: 40px;
@@ -71,6 +71,7 @@ html {
     margin-bottom: 50px;
     border-bottom: #fff solid 3px;
     padding-bottom: 15px;
+    text-align: center;
 } 
 .all-projects {
     width: 90%;
@@ -106,6 +107,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .code {
     color: #ff82b3;
@@ -153,7 +155,7 @@ html {
 #contact h1 {
     font-size: 60px;
     font-family: 'Roboto-B';
-    padding-bottom: 90px;
+    padding-bottom: 10vh;
     
 }
 .social-links {
@@ -208,4 +210,38 @@ footer p {
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+/* responsive styles */
+@media(max-width: 480px){
+    #navbar ul {
+        justify-content: center;
+    }
+    #navbar ul li a {
+        font-size: 15px;
+    }
+    #navbar ul li {
+        margin-right: 8px;
+    }
+    #welcome-section h1, #projects h2 {
+        font-size: 30px;
+    }
+    #welcome-section h4 {
+        font-size: 20px;
+    }
+    .more-project {
+        width: 50%;
+        height: 40px;
+        font-size: 12px;
+    }
+    #contact h1 {
+        font-size: 25px;
+    }
+    .social-links a {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+
 }
