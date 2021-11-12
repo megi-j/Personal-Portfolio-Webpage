@@ -34,3 +34,15 @@
     font-style: italic;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Road Rage';
+    src: url('../fonts/RoadRage-Regular.eot');
+    src: url('../fonts/RoadRage-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RoadRage-Regular.woff2') format('woff2'),
+        url('../fonts/RoadRage-Regular.woff') format('woff'),
+        url('../fonts/RoadRage-Regular.ttf') format('truetype'),
+        url('../fonts/RoadRage-Regular.svg#RoadRage-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
